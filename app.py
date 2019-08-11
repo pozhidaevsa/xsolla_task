@@ -72,13 +72,13 @@ def get_message():
         json_params = json.loads(getData) 
         log(logger,json_params,'get json_params',internal_id)
 
-        #json_params = {'message_id':0,
-        #                'dialog_id':0,
-        #                'participants_id':0,
-        #                'user_id':0,
-        #                'content':'test content',
-        #                'created_at':111111111,
-        #            }
+        json_params = {'message_id':0,
+                        'dialog_id':0,
+                        'participants_id':0,
+                        'user_id':0,
+                        'content':'test content',
+                        'created_at':111111111,
+                    }
 
 
         status_code = 400
